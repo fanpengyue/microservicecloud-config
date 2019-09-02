@@ -1,0 +1,16 @@
+spring: 
+  profiles:
+    active: 
+    -dev
+---
+spring: 
+  profiles: dev #开发环境
+  application:
+    name: microservicecloud-config-fpy-dev
+---
+spring: 
+  profiles: test #测试环境
+  application:
+    name: microservicecloud-config-fpy-test
+
+#请保存为utf-8的形式
